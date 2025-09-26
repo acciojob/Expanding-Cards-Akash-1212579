@@ -22,19 +22,20 @@
   cursor: pointer;
 }
 
-.panel h3 {
+.img-text{
   position: absolute;
+	color:white;
   bottom: 20px;
   left: 20px;
   margin: 0;
-  opacity: 0;
+  opacity: 1;
 }
 
 .active {
   flex: 5;
 }
 
-.panel.active h3 {
+.panel.active.img-text {
   opacity: 1;
   transition: opacity 0.3s ease-in 0.4s;
 }
